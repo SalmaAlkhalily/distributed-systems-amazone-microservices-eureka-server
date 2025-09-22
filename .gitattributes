@@ -1,5 +1,4 @@
-# Force all text files to use LF
-* text=auto eol=lf
+* text=auto
+*.sh text eol=lf
+*.bat text eol=crlf
 
-# Or, for Windows style everywhere:
-# * text=auto eol=crlf
